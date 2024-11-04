@@ -5,14 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    ListarVehiculoComponent // Declaración correcta del componente
+    ListarVehiculoComponent
   ],
   imports: [
     CommonModule,
-    HttpClientModule // Importar módulos necesarios
+    HttpClientModule
   ],
   exports: [
-    ListarVehiculoComponent // Exportación del componente
+    ListarVehiculoComponent
   ]
 })
 export class VehiculosModule { }
